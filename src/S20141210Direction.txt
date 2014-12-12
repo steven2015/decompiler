@@ -1,0 +1,437 @@
+Classfile /E:/Java/20141207ScreenCap/bin/steven/sth/S20141210Direction.class
+  Last modified 2014/12/10; size 2113 bytes
+  MD5 checksum 793c8dcd5aa0e79d83cb92d2e27c7bc8
+  Compiled from "S20141210Direction.java"
+public class steven.sth.S20141210Direction
+  SourceFile: "S20141210Direction.java"
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Class              #2            //  steven/sth/S20141210Direction
+    #2 = Utf8               steven/sth/S20141210Direction
+    #3 = Class              #4            //  java/lang/Object
+    #4 = Utf8               java/lang/Object
+    #5 = Utf8               <init>
+    #6 = Utf8               ()V
+    #7 = Utf8               Code
+    #8 = Methodref          #3.#9         //  java/lang/Object."<init>":()V
+    #9 = NameAndType        #5:#6         //  "<init>":()V
+   #10 = Utf8               LineNumberTable
+   #11 = Utf8               LocalVariableTable
+   #12 = Utf8               this
+   #13 = Utf8               Lsteven/sth/S20141210Direction;
+   #14 = Utf8               main
+   #15 = Utf8               ([Ljava/lang/String;)V
+   #16 = Methodref          #1.#17        //  steven/sth/S20141210Direction.run:(II)V
+   #17 = NameAndType        #18:#19       //  run:(II)V
+   #18 = Utf8               run
+   #19 = Utf8               (II)V
+   #20 = Fieldref           #21.#23       //  java/lang/System.out:Ljava/io/PrintStream;
+   #21 = Class              #22           //  java/lang/System
+   #22 = Utf8               java/lang/System
+   #23 = NameAndType        #24:#25       //  out:Ljava/io/PrintStream;
+   #24 = Utf8               out
+   #25 = Utf8               Ljava/io/PrintStream;
+   #26 = Methodref          #27.#29       //  java/io/PrintStream.println:()V
+   #27 = Class              #28           //  java/io/PrintStream
+   #28 = Utf8               java/io/PrintStream
+   #29 = NameAndType        #30:#6        //  println:()V
+   #30 = Utf8               println
+   #31 = Utf8               args
+   #32 = Utf8               [Ljava/lang/String;
+   #33 = Double             5.0d
+   #35 = Double             100.0d
+   #37 = Double             180.0d
+   #39 = Double             3.141592653589793d
+   #41 = Methodref          #42.#44       //  java/lang/Math.sin:(D)D
+   #42 = Class              #43           //  java/lang/Math
+   #43 = Utf8               java/lang/Math
+   #44 = NameAndType        #45:#46       //  sin:(D)D
+   #45 = Utf8               sin
+   #46 = Utf8               (D)D
+   #47 = Double             -100.0d
+   #49 = Methodref          #42.#50       //  java/lang/Math.cos:(D)D
+   #50 = NameAndType        #51:#46       //  cos:(D)D
+   #51 = Utf8               cos
+   #52 = Methodref          #42.#53       //  java/lang/Math.atan2:(DD)D
+   #53 = NameAndType        #54:#55       //  atan2:(DD)D
+   #54 = Utf8               atan2
+   #55 = Utf8               (DD)D
+   #56 = Double             1.5707963267948966d
+   #58 = Double             -5.0d
+   #60 = Class              #61           //  java/lang/StringBuilder
+   #61 = Utf8               java/lang/StringBuilder
+   #62 = Methodref          #63.#65       //  java/lang/String.valueOf:(I)Ljava/lang/String;
+   #63 = Class              #64           //  java/lang/String
+   #64 = Utf8               java/lang/String
+   #65 = NameAndType        #66:#67       //  valueOf:(I)Ljava/lang/String;
+   #66 = Utf8               valueOf
+   #67 = Utf8               (I)Ljava/lang/String;
+   #68 = Methodref          #60.#69       //  java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+   #69 = NameAndType        #5:#70        //  "<init>":(Ljava/lang/String;)V
+   #70 = Utf8               (Ljava/lang/String;)V
+   #71 = String             #72           //   
+   #72 = Utf8                
+   #73 = Methodref          #60.#74       //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #74 = NameAndType        #75:#76       //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #75 = Utf8               append
+   #76 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #77 = Methodref          #60.#78       //  java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+   #78 = NameAndType        #75:#79       //  append:(I)Ljava/lang/StringBuilder;
+   #79 = Utf8               (I)Ljava/lang/StringBuilder;
+   #80 = Class              #81           //  java/math/BigDecimal
+   #81 = Utf8               java/math/BigDecimal
+   #82 = Methodref          #80.#83       //  java/math/BigDecimal."<init>":(D)V
+   #83 = NameAndType        #5:#84        //  "<init>":(D)V
+   #84 = Utf8               (D)V
+   #85 = Fieldref           #86.#88       //  java/math/RoundingMode.HALF_UP:Ljava/math/RoundingMode;
+   #86 = Class              #87           //  java/math/RoundingMode
+   #87 = Utf8               java/math/RoundingMode
+   #88 = NameAndType        #89:#90       //  HALF_UP:Ljava/math/RoundingMode;
+   #89 = Utf8               HALF_UP
+   #90 = Utf8               Ljava/math/RoundingMode;
+   #91 = Methodref          #80.#92       //  java/math/BigDecimal.setScale:(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+   #92 = NameAndType        #93:#94       //  setScale:(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+   #93 = Utf8               setScale
+   #94 = Utf8               (ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+   #95 = Methodref          #60.#96       //  java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #96 = NameAndType        #75:#97       //  append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #97 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #98 = String             #99           //  ,
+   #99 = Utf8               ,
+  #100 = Methodref          #60.#101      //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #101 = NameAndType        #102:#103     //  toString:()Ljava/lang/String;
+  #102 = Utf8               toString
+  #103 = Utf8               ()Ljava/lang/String;
+  #104 = Methodref          #27.#105      //  java/io/PrintStream.println:(Ljava/lang/String;)V
+  #105 = NameAndType        #30:#70       //  println:(Ljava/lang/String;)V
+  #106 = Utf8               bearingDegree
+  #107 = Utf8               I
+  #108 = Utf8               moveDirectionDegree
+  #109 = Utf8               speed
+  #110 = Utf8               D
+  #111 = Utf8               compass
+  #112 = Utf8               northX
+  #113 = Utf8               northY
+  #114 = Utf8               direction
+  #115 = Utf8               angle
+  #116 = Utf8               actualDirection
+  #117 = Utf8               actualAngle
+  #118 = Utf8               x
+  #119 = Utf8               y
+  #120 = Utf8               StackMapTable
+  #121 = Utf8               SourceFile
+  #122 = Utf8               S20141210Direction.java
+{
+  public steven.sth.S20141210Direction();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    LineNumberTable:
+      line 13: 0
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0       5     0  this   Lsteven/sth/S20141210Direction;
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 13: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lsteven/sth/S20141210Direction;
+
+  public static final void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    LineNumberTable:
+      line 15: 0
+      line 16: 5
+      line 17: 11
+      line 18: 18
+      line 19: 25
+      line 20: 31
+      line 21: 37
+      line 22: 44
+      line 23: 52
+      line 24: 60
+      line 25: 66
+      line 26: 73
+      line 27: 81
+      line 28: 90
+      line 29: 99
+      line 30: 105
+      line 31: 112
+      line 32: 120
+      line 33: 129
+      line 34: 138
+      line 35: 144
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0     145     0  args   [Ljava/lang/String;
+    Code:
+      stack=2, locals=1, args_size=1
+         0: iconst_0      
+         1: iconst_0      
+         2: invokestatic  #16                 // Method run:(II)V
+         5: iconst_0      
+         6: bipush        90
+         8: invokestatic  #16                 // Method run:(II)V
+        11: iconst_0      
+        12: sipush        180
+        15: invokestatic  #16                 // Method run:(II)V
+        18: iconst_0      
+        19: sipush        270
+        22: invokestatic  #16                 // Method run:(II)V
+        25: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        28: invokevirtual #26                 // Method java/io/PrintStream.println:()V
+        31: bipush        90
+        33: iconst_0      
+        34: invokestatic  #16                 // Method run:(II)V
+        37: bipush        90
+        39: bipush        90
+        41: invokestatic  #16                 // Method run:(II)V
+        44: bipush        90
+        46: sipush        180
+        49: invokestatic  #16                 // Method run:(II)V
+        52: bipush        90
+        54: sipush        270
+        57: invokestatic  #16                 // Method run:(II)V
+        60: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        63: invokevirtual #26                 // Method java/io/PrintStream.println:()V
+        66: sipush        180
+        69: iconst_0      
+        70: invokestatic  #16                 // Method run:(II)V
+        73: sipush        180
+        76: bipush        90
+        78: invokestatic  #16                 // Method run:(II)V
+        81: sipush        180
+        84: sipush        180
+        87: invokestatic  #16                 // Method run:(II)V
+        90: sipush        180
+        93: sipush        270
+        96: invokestatic  #16                 // Method run:(II)V
+        99: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       102: invokevirtual #26                 // Method java/io/PrintStream.println:()V
+       105: sipush        270
+       108: iconst_0      
+       109: invokestatic  #16                 // Method run:(II)V
+       112: sipush        270
+       115: bipush        90
+       117: invokestatic  #16                 // Method run:(II)V
+       120: sipush        270
+       123: sipush        180
+       126: invokestatic  #16                 // Method run:(II)V
+       129: sipush        270
+       132: sipush        270
+       135: invokestatic  #16                 // Method run:(II)V
+       138: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       141: invokevirtual #26                 // Method java/io/PrintStream.println:()V
+       144: return        
+      LineNumberTable:
+        line 15: 0
+        line 16: 5
+        line 17: 11
+        line 18: 18
+        line 19: 25
+        line 20: 31
+        line 21: 37
+        line 22: 44
+        line 23: 52
+        line 24: 60
+        line 25: 66
+        line 26: 73
+        line 27: 81
+        line 28: 90
+        line 29: 99
+        line 30: 105
+        line 31: 112
+        line 32: 120
+        line 33: 129
+        line 34: 138
+        line 35: 144
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     145     0  args   [Ljava/lang/String;
+
+  public static final void run(int, int);
+    descriptor: (II)V
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    LineNumberTable:
+      line 37: 0
+      line 38: 4
+      line 39: 9
+      line 40: 28
+      line 41: 47
+      line 42: 60
+      line 43: 73
+      line 44: 78
+      line 46: 84
+      line 47: 99
+      line 48: 112
+      line 49: 117
+      line 51: 123
+      line 52: 134
+      line 53: 145
+      line 54: 224
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0     225     0 bearingDegree   I
+          0     225     1 moveDirectionDegree   I
+          4     221     2 speed   D
+          9     216     4 compass   D
+         28     197     6 northX   D
+         47     178     8 northY   D
+         60     165    10 direction   D
+         73     152    12 angle   I
+         99     126    13 actualDirection   D
+        112     113    15 actualAngle   I
+        134      91    16     x   D
+        145      80    18     y   D
+    Code:
+      stack=6, locals=20, args_size=2
+         0: ldc2_w        #33                 // double 5.0d
+         3: dstore_2      
+         4: ldc2_w        #35                 // double 100.0d
+         7: dstore        4
+         9: ldc2_w        #35                 // double 100.0d
+        12: iload_0       
+        13: i2d           
+        14: ldc2_w        #37                 // double 180.0d
+        17: ddiv          
+        18: ldc2_w        #39                 // double 3.141592653589793d
+        21: dmul          
+        22: invokestatic  #41                 // Method java/lang/Math.sin:(D)D
+        25: dmul          
+        26: dstore        6
+        28: ldc2_w        #47                 // double -100.0d
+        31: iload_0       
+        32: i2d           
+        33: ldc2_w        #37                 // double 180.0d
+        36: ddiv          
+        37: ldc2_w        #39                 // double 3.141592653589793d
+        40: dmul          
+        41: invokestatic  #49                 // Method java/lang/Math.cos:(D)D
+        44: dmul          
+        45: dstore        8
+        47: dload         8
+        49: dload         6
+        51: invokestatic  #52                 // Method java/lang/Math.atan2:(DD)D
+        54: ldc2_w        #56                 // double 1.5707963267948966d
+        57: dadd          
+        58: dstore        10
+        60: dload         10
+        62: ldc2_w        #39                 // double 3.141592653589793d
+        65: ddiv          
+        66: ldc2_w        #37                 // double 180.0d
+        69: dmul          
+        70: d2i           
+        71: istore        12
+        73: iload         12
+        75: ifge          84
+        78: iinc_w        12, 360
+        84: iload_1       
+        85: i2d           
+        86: ldc2_w        #37                 // double 180.0d
+        89: ddiv          
+        90: ldc2_w        #39                 // double 3.141592653589793d
+        93: dmul          
+        94: dload         10
+        96: dsub          
+        97: dstore        13
+        99: dload         13
+       101: ldc2_w        #39                 // double 3.141592653589793d
+       104: ddiv          
+       105: ldc2_w        #37                 // double 180.0d
+       108: dmul          
+       109: d2i           
+       110: istore        15
+       112: iload         15
+       114: ifge          123
+       117: iinc_w        15, 360
+       123: ldc2_w        #33                 // double 5.0d
+       126: dload         13
+       128: invokestatic  #41                 // Method java/lang/Math.sin:(D)D
+       131: dmul          
+       132: dstore        16
+       134: ldc2_w        #58                 // double -5.0d
+       137: dload         13
+       139: invokestatic  #49                 // Method java/lang/Math.cos:(D)D
+       142: dmul          
+       143: dstore        18
+       145: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       148: new           #60                 // class java/lang/StringBuilder
+       151: dup           
+       152: iload         12
+       154: invokestatic  #62                 // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+       157: invokespecial #68                 // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+       160: ldc           #71                 // String  
+       162: invokevirtual #73                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       165: iload         15
+       167: invokevirtual #77                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+       170: ldc           #71                 // String  
+       172: invokevirtual #73                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       175: new           #80                 // class java/math/BigDecimal
+       178: dup           
+       179: dload         16
+       181: invokespecial #82                 // Method java/math/BigDecimal."<init>":(D)V
+       184: iconst_2      
+       185: getstatic     #85                 // Field java/math/RoundingMode.HALF_UP:Ljava/math/RoundingMode;
+       188: invokevirtual #91                 // Method java/math/BigDecimal.setScale:(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+       191: invokevirtual #95                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+       194: ldc           #98                 // String ,
+       196: invokevirtual #73                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       199: new           #80                 // class java/math/BigDecimal
+       202: dup           
+       203: dload         18
+       205: invokespecial #82                 // Method java/math/BigDecimal."<init>":(D)V
+       208: iconst_2      
+       209: getstatic     #85                 // Field java/math/RoundingMode.HALF_UP:Ljava/math/RoundingMode;
+       212: invokevirtual #91                 // Method java/math/BigDecimal.setScale:(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+       215: invokevirtual #95                 // Method java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+       218: invokevirtual #100                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       221: invokevirtual #104                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       224: return        
+      LineNumberTable:
+        line 37: 0
+        line 38: 4
+        line 39: 9
+        line 40: 28
+        line 41: 47
+        line 42: 60
+        line 43: 73
+        line 44: 78
+        line 46: 84
+        line 47: 99
+        line 48: 112
+        line 49: 117
+        line 51: 123
+        line 52: 134
+        line 53: 145
+        line 54: 224
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     225     0 bearingDegree   I
+            0     225     1 moveDirectionDegree   I
+            4     221     2 speed   D
+            9     216     4 compass   D
+           28     197     6 northX   D
+           47     178     8 northY   D
+           60     165    10 direction   D
+           73     152    12 angle   I
+           99     126    13 actualDirection   D
+          112     113    15 actualAngle   I
+          134      91    16     x   D
+          145      80    18     y   D
+      StackMapTable: number_of_entries = 2
+           frame_type = 255 /* full_frame */
+          offset_delta = 84
+          locals = [ int, int, double, double, double, double, double, int ]
+          stack = []
+           frame_type = 253 /* append */
+          offset_delta = 38
+          locals = [ double, int ]
+
+  }
